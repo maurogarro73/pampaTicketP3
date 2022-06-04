@@ -244,74 +244,25 @@ body {
     margin: auto;
 }
 
+.comoComprar {
+   height: 500px;
+}
+
 /*
  ========================= FIN SOBRE NOSOTROS ==========================
 */
- .comoComprar {
 
-    height: 500px;
-}
+
 /*
  ========================= PAGINA RECITALES ==========================
 */
-.padreRecitalGrid {
-    display: grid;
-    grid-template-areas:
-    "tituloGrid tituloGrid tituloGrid tituloGrid"
-    "cardR1 cardR2 cardR3 cardR4"
-    "cardR5 cardR6 cardR7 cardR8"
-    "footerGrid footerGrid footerGrid footerGrid";
-    gap: 10px;
-}
 
-.tituloGrid {
-    grid-area: tituloGrid;
-    font-family: 'Murecho', sans-serif;
+.proxRecitales .titulo {
     text-transform: uppercase;
-    font-size: 35px;
-    text-align: center;
-    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-.cardR1 {
-    grid-area: cardR1;
-    margin: 0 auto;
-}
-
-.cardR2 {
-    grid-area: cardR2;
-    margin: 0 auto;
-}
-
-.cardR3 {
-    grid-area: cardR3;
-    margin: 0 auto;
-}
-
-.cardR4 {
-    grid-area: cardR4;
-    margin: 0 auto;
-}
-
-.cardR5 {
-    grid-area: cardR5;
-    margin: 0 auto;
-}
-
-.cardR6 {
-    grid-area: cardR6;
-    margin: 0 auto;
-}
-
-.cardR7 {
-    grid-area: cardR7;
-    margin: 0 auto;
-}
-
-.cardR8 {
-    grid-area: cardR8;
-    margin: 0 auto;
-}
 /*
  ========================= FIN PAGINA RECITALES ==========================
 */
@@ -454,19 +405,6 @@ body {
         width: 100%;
     }
 
-    /***************RECITALES***************/
-    .padreRecitalGrid {
-        display: grid;
-        grid-template-areas:
-        "tituloGrid tituloGrid"
-        "cardR1 cardR2"
-        "cardR3 cardR4"
-        "cardR5 cardR6"
-        "cardR7 cardR8"
-        "footerGrid footerGrid";
-        gap: 10px;
-    }
-
     /****************CONTACTO****************/
     .contacto {
         width: 70%;
@@ -476,16 +414,6 @@ body {
 
 @media screen and (max-width:375px) {
     /******** INDEX ********/
-    .padreGridIndex {
-        display: grid;
-        grid-template-areas: 
-        "tituloGrid"
-        "card1"
-        "card2"
-        "card3"
-        "card4";
-    }
-    
     .contenedor img{
         display: none;
     }
@@ -536,23 +464,6 @@ body {
     .nuestroLocal .infoNuestroLocal {
         width: 100%;
         padding: 5px;
-    }
-
-    /********* RECITALES******** */
-    .padreRecitalGrid {
-        display: grid;
-        grid-template-areas:
-        "tituloGrid"
-        "cardR1"
-        "cardR2"
-        "cardR3"
-        "cardR4"
-        "cardR5"
-        "cardR6"
-        "cardR7"
-        "cardR8"
-        "footerGrid";
-        gap: 10px;
     }
 
     /****************CONTACTO****************/

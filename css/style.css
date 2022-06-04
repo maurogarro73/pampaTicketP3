@@ -410,6 +410,10 @@ body {
         width: 70%;
     }
     
+    .formulario .boton {
+        width: 100%;
+    }
+    
 }
 
 @media screen and (max-width:375px) {

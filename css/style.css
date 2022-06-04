@@ -432,6 +432,11 @@ body {
         font-size: 30px;
     }
 
+    .comoComprar {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
     .comoComprar .infoComprar h2 {
         font-size: 30px;
     }
